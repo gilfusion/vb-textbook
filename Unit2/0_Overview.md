@@ -6,7 +6,7 @@
 * [2.3 Objects and Methods](3_ObjectsMethods.md)
 * [2.4 The System.Console Object](4_SystemConsole.md)
 * [2.5 Assignment Statements and Properties](5_Assignments.md)
-    * [2.5a Aside: Autocomplete and "IntelliSense"](5b_AutoComplete.md)
+    * [2.5a Aside: Autocomplete and "IntelliSense"](5a_AutoComplete.md)
 * [2.6 Functions](6_Functions.md)
 * [2.7 Data Types](7_DataTypes.md)
 * [2.8 Variables and Constants](8_VariablesConstants.md)
