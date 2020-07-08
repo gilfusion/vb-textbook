@@ -1,6 +1,6 @@
 # 3.3a Predicting If-Then-Else Results
 
-Below are six program snippets. To the right of each snippet are five possible inputs that someone could enter via ```Console.ReadLine```. Find and write down the outputs of each program (what is displayed using ```Console.WriteLine```).
+Below are six program snippets. To the right of each snippet are five possible inputs that someone could enter via `Console.ReadLine`. Find and write down the outputs of each program (what is displayed using `Console.WriteLine`).
 
 ## Snippet #1
 ```vb

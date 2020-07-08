@@ -3,8 +3,8 @@
 In computer science, an **object** is any entity that can be manipulated by the commands of a programming language, such as a value, variable, function, or data structure . For our purposes, an object is a package of related features and options that you can use and customize in your program.
 
 ## Methods
-To perform actions with an object, you must use one of its **methods**. A method is a subprogram associated with an object. In Visual Basic, to use a method, type the name of the object, followed by a dot, followed by the name of the method. (This is called dot notation.) Some methods require additional information, called **arguments**, in order to run. If the method you are using needs an argument or arguments, place them in a list, separated by commas and surrounded by parentheses. Each argument will be an expression.
-* <span style="color: darkgray">(Some programmers will also use the term "**parameter**" to refer to an argument. There are subtle differences between a parameter and an argument - technically, a parameter is where the information goes inside the method. We will cover this in more detail later when we get to making our own methods.)</span>
+To perform actions with an object, you must use one of its **methods**. A method is a subprogram associated with an object. In Visual Basic, to use a method, type the name of the object, followed by a dot, followed by the name of the method. (This is called dot notation.) Some methods require additional information, called **arguments**, in order to run. If the method you are using needs an argument or arguments, place them in a list, separated by commas and surrounded by parentheses. Each argument will be an expression.[¹](#footnote1)
+
 ### Examples
 ```vb
 System.Console.Clear
@@ -19,7 +19,7 @@ System.Console.Clear
     ```vb
     Util.ClearResults()
     ```
-    ```Util``` is a special object only available in LINQPad.)
+    `Util` is a special object only available in LINQPad.)
 ```vb
 System.Threading.Thread.Sleep(1000)
 ```
@@ -47,3 +47,6 @@ System.Console.Beep(262, 1000)
 7. What is the name of the method in the above command?
 8. How many arguments does the above command have?
 * By the way, this command plays a 262-hertz tone (about middle C) for 1000 milliseconds (or 1 second).
+
+## Notes
+¹ <a id="footnote1"></a> Some programmers will also use the term "**parameter**" to refer to an argument. There are subtle differences between a parameter and an argument - technically, a parameter is where the information goes inside the method. We will cover this in more detail later when we get to making our own methods.

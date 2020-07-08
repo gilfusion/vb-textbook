@@ -4,7 +4,7 @@
 ```vb
 Function GetRomanNumeral(number As Integer) As String
 ```
-This line creates a function named ```GetRomanNumeral```. It takes one Integer argument and has a String as its result. We can use this function elsewhere in our program like any other function, the only difference being that we made it ourselves.
+This line creates a function named `GetRomanNumeral`. It takes one Integer argument and has a String as its result. We can use this function elsewhere in our program like any other function, the only difference being that we made it ourselves.
 
 Inside our function block, the Integer argument will be available to us as a variable named number.
 
@@ -17,7 +17,7 @@ End If
 ```
 This block of code checks for negative numbers, zero, and numbers of 5000 or higher.
 
-The ```Return``` command quits the function and sends the result back to whichever other function or subprogram was using this function. In this case, we are sending a String that says “Out of range”.
+The `Return` command quits the function and sends the result back to whichever other function or subprogram was using this function. In this case, we are sending a String that says “Out of range”.
 
 ## Setting up the result
 ```vb
@@ -32,7 +32,7 @@ Do While number >= 1000
     number = number - 1000
 Loop
 ```
-This block of code does a couple of things.  First, it will add an “M” to our result. Then, it will drop the number by 1000. At every point from here on out in the program, the variable ```number``` will contain how much of the number is left, that has not yet been factored into the Roman numeral.
+This block of code does a couple of things.  First, it will add an “M” to our result. Then, it will drop the number by 1000. At every point from here on out in the program, the variable `number` will contain how much of the number is left, that has not yet been factored into the Roman numeral.
 
 This is repeated as long as the remaining number is over 1000. If the original number was 3500, it will repeat 3 times, as the number drops to 2500, then 1500, then 500 and the result becomes M, then MM, then MMM.
 
@@ -57,4 +57,4 @@ Once the thousands are taken out, there is only the possibility for a single 900
     Return result
 End Function
 ```
-Again, the ```Return``` command quits the function and sends the result back to whichever over function or subprogram was using this function. In this case, we are sending back the String from the variable we have been working on.
+Again, the `Return` command quits the function and sends the result back to whichever over function or subprogram was using this function. In this case, we are sending back the String from the variable we have been working on.

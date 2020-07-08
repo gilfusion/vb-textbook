@@ -5,19 +5,19 @@ Now that we know the formats computer use to store data, we can now discuss addi
 ## Variables in Visual Basic
 Before you can use a variable in a Visual Basic program, you need to create it. Creating a variable reserves space in the computer's RAM and sets up a name you can use to access that space. As mentioned in the last topic, that amount of space reserved depends of the type of data the variable is supposed to hold. Most variables can only hold one type of data.
 
-## The ```Dim``` Statement
-Variables in Visual Basic are created using the ```Dim``` statement.
-* (```Dim``` originally stood for Dimension, since it controlled how much RAM was being reserved for the variable.)
+## The `Dim` Statement
+Variables in Visual Basic are created using the `Dim` statement.
+* (`Dim` originally stood for Dimension, since it controlled how much RAM was being reserved for the variable.)
 
-The ```Dim``` statement has these parts:
+The `Dim` statement has these parts:
 ```vb
-Dim name As type = value
+Dim 𝘯𝘢𝘮𝘦 As 𝘵𝘺𝘱𝘦 = 𝘷𝘢𝘭𝘶𝘦
 ```
 |               |       |
 |---------------|-------|
-| ***name***	| the name of the variable
-| ***type***	| the type of data that the variable can hold (```Byte```, ```Integer```, ```Double```, ```String```, ```Boolean```, etc.)
-| ***value***	|the initial data stored in the variable
+| 𝘯𝘢𝘮𝘦	| the name of the variable
+| 𝘵𝘺𝘱𝘦	| the type of data that the variable can hold (`Byte`, `Integer`, `Double`, `String`, `Boolean`, etc.)
+| 𝘷𝘢𝘭𝘶𝘦	|the initial data stored in the variable
 * (If you give a value, you may be able to omit the type, since, in many cases, Visual Basic can figure out the type from the value you give.)
 
 ### Examples
@@ -38,17 +38,17 @@ Dim average = 0.0
 ## Scope
 The location where a variable is created in Visual Basic is important because of the concept of **scope**. Scope determines how much of the program can use the variable. If you create a variable inside a subprogram, it can only be used in that subprogram. If you create a variable inside an object (Class or Module) but not inside a subprogram, it can be used by any of the subprograms in that object, but not outside that object. (Visual Basic does not let you create variables outside objects for "Global" scope, though there are other programming languages that do.)
 
-## The ```Const``` Statement
+## The `Const` Statement
 In addition to variables, Visual Basic also includes constants. While variables can vary - they can be changed using assignment statements - constants are constant - they cannot be changed.
-Constants in Visual Basic are created using the ```Const``` statement. (Two guesses what that stands for.) The ```Const``` statement has the same parts as the ```Dim``` statement.
+Constants in Visual Basic are created using the `Const` statement. (Two guesses what that stands for.) The `Const` statement has the same parts as the `Dim` statement.
 ```vb
-Const name As type = value
+Const 𝘯𝘢𝘮𝘦 As 𝘵𝘺𝘱𝘦 = 𝘷𝘢𝘭𝘶𝘦
 ```
 |               |       |
 |---------------|-------|
-|***name***	    |the name of the constant
-|***type***	    |the type of data that the constant is
-|***value***	|the value stored in the constant
+|𝘯𝘢𝘮𝘦	    |the name of the constant
+|𝘵𝘺𝘱𝘦	    |the type of data that the constant is
+|𝘷𝘢𝘭𝘶𝘦	|the value stored in the constant
 * (The value is required for constants, since you cannot change it later. This also means that you should be able to omit the type, since Visual Basic should be able to figure out the type from the value.)
 
 ### Examples

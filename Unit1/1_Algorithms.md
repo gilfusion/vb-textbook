@@ -2,7 +2,7 @@
 
 ## What is an algorithm?
 <a name="algorithm"></a>An **algorithm** is the list of steps needed to calculate the solution to a problem. This definition includes several components, as we will look at below:
-- List of steps: A computer can, with some exceptions, only do one thing at a time. Therefore, any algorithm that a computer must perform should be planned to do only one thing at a time. <span style="color: darkgray">(Again, there are exceptions, but those can get very, very, **very** complicated and are outside the scope of this class.)</span>
+- List of steps: A computer can, with some exceptions, only do one thing at a time. Therefore, any algorithm that a computer must perform should be planned to do only one thing at a time.[¹](#footnote1)
 - Calculate: Fundamentally, a computer does three things: loads numbers (from somewhere), performs math operations on those numbers, and stores the resulting numbers (somewhere). Any algorithm that a computer must perform must be described in terms of moving numbers around or performing some form of mathematics or logic.
 - Solution to a problem: The term problem here has a very broad meaning. You can think of a math problem from your homework as an example of a problem a computer program can solve. You can think of needing a piece of information as a problem a computer program (like an Internet search engine) can solve. You can even think about being bored as a problem a computer program can solve. That's why we have computer games! Some of these programs are simple and can be solved with only a few steps, while others are extremely complex and many require dozens, hundreds, thousands, or even millions of steps to solve!
 
@@ -50,3 +50,6 @@ Following the format above, can you complete this algorithm so that, at the end,
 2. Write the number 1 in the value for Temp A.
 3. Copy the value from Input 1 to Temp N.
 4. …
+
+## Notes
+¹ <a id="footnote1"></a>Again, there are exceptions, but those can get very, very, **very** complicated and are outside the scope of this class.

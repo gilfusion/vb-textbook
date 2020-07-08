@@ -18,23 +18,23 @@ Do you remember the Properties window from the Windows Forms Application? Contro
 #### The System.Console object
 |Property	|Expected kind of data	|Description    |
 |-----------|-----------------------|---------------|
-|```BackgroundColor```	|Console Color<br>(see below)	|The color behind any text written to the console window after this point
-|```ForegroundColor```	|Console Color	|The color of any text written to the console window after this point
-|```Title```	|String<br>(Quoted Text)	|The text displayed in the title bar of the console window
+|`BackgroundColor`	|Console Color<br>(see below)	|The color behind any text written to the console window after this point
+|`ForegroundColor`	|Console Color	|The color of any text written to the console window after this point
+|`Title`	|String<br>(Quoted Text)	|The text displayed in the title bar of the console window
 
-The ```BackgroundColor``` and ```ForegroundColor``` properties can only be set from the properties of the ```System.ConsoleColor``` object. Visual Studio will display the possibilities in the autocomplete list when you use it.
-(None of these properties are available in LINQPad's version of ```System.Console```.)
+The `BackgroundColor` and `ForegroundColor` properties can only be set from the properties of the `System.ConsoleColor` object. Visual Studio will display the possibilities in the autocomplete list when you use it.
+(None of these properties are available in LINQPad's version of `System.Console`.)
 #### Most Windows Form Application control objects
 |Property	|Expected kind of data	|Description    |
 |-----------|-----------------------|---------------|
-|```BackColor```	|Color (see below)	|The background color of the control
-|```ForeColor```	|Color	|The color of the text displayed on the control
-|```Left```	|Integer	|The x-coordinate of the left side of the control
-|```Tag```	|Anything	|An extra piece of data for you to keep with the control
-|```Text```	|String	|The text displayed on the control
-|```Top```	|Integer	|The y-coordinate of the top of the control
+|`BackColor`	|Color (see below)	|The background color of the control
+|`ForeColor`	|Color	|The color of the text displayed on the control
+|`Left`	|Integer	|The x-coordinate of the left side of the control
+|`Tag`	|Anything	|An extra piece of data for you to keep with the control
+|`Text`	|String	|The text displayed on the control
+|`Top`	|Integer	|The y-coordinate of the top of the control
 
-The ```BackColor``` and ```ForeColor``` properties can only be set to color values. You can find a large number of color values in the properties of the ```System.Drawing.Color``` object (or just ```Color``` object for short). Visual Studio will display the possibilities in the autocomplete list when you use it.
+The `BackColor` and `ForeColor` properties can only be set to color values. You can find a large number of color values in the properties of the `System.Drawing.Color` object (or just `Color` object for short). Visual Studio will display the possibilities in the autocomplete list when you use it.
 #### Examples
 ```vb
 Console.BackgroundColor = ConsoleColor.Red

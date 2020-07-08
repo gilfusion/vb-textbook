@@ -70,5 +70,5 @@ Insertion sort works a little like the way people work. One item is picked each 
 3. Write the following numbers down in pencil on a piece of paper: 12, 76, 47, 32, 99, 11, and 63. Try following the directions for a bubble sort to put the numbers in order, erasing and rewriting the numbers for each swap.
 4. Write the following numbers down in pencil on a piece of paper: 36, 99, 21, 74, 11, and 67. Try following the directions for an insertion sort to put the numbers in order.
 		
-## Footnotes
+## Notes
 ¹ <a id="footnote1"></a>Source: https://www.khanacademy.org/computing/computer-science/algorithms/sorting-algorithms/a/selection-sort-pseudocode
